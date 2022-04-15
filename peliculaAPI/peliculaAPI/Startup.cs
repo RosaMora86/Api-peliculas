@@ -47,12 +47,12 @@ namespace peliculaAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "generoAPI v1"));
-                /*app.UseSwaggerUI(c =>
+                /*app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "peliculaAPI v1"));*/
+                app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "peliculaAPI v1");
                     c.RoutePrefix = string.Empty;
-                });*/
+                });
 
 
             }

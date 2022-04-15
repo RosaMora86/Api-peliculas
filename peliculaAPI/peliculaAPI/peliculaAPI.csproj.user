@@ -12,7 +12,7 @@
     <WebStackScaffolding_DbContextTypeFullName>peliculaAPI.Data.peliculaAPIContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ActiveDebugProfile>generoAPI</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>F:\Camilo\Documents\VisualStudio\peliculaAPI\peliculaAPI\Properties\PublishProfiles\apipelicula - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>apipelicula - Web Deploy1</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

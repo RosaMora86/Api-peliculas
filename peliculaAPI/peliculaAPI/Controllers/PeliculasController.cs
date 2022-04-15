@@ -63,7 +63,6 @@ namespace peliculaAPI.Controllers
                 "@Resumen = '" + pelicula.Pel_Resumen + "'";
             _context.Database.ExecuteSqlRaw(StoredProc);
                 return Ok("Registro Actulizado");
-
         }
 
         // POST: api/Peliculas
