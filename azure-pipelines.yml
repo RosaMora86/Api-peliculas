@@ -25,12 +25,11 @@ steps:
   inputs:
     gitHubConnection: 'github.com_mavenda5'
     repositoryName: 'mavenda5/cinema'
-    action: 'create'
+    action: 'edit'
     target: '$(Build.SourceVersion)'
-    tagSource: 'gitTag'
+    tag: 'CinemaPipeLine'
     changeLogCompareToRelease: 'lastFullRelease'
     changeLogType: 'commitBased'
-
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
